@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PokeHelper</string>
+    <string name="test">Test</string>
+    <string name="numeroTest">|\t\t80</string>
+    <string name="hint">Esto puede llegar a tardar hasta 1 minuto\n\t\t\tPero solo sera necesario la 1º vez</string>
+    <string name="loading">Loading Pokemons: 0%</string>
+    <string name="weak">Recibe MAS daño de los tipos:</string>
+    <string name="resist">Recibe MENOS daño de los tipo:</string>
+    <string name="strong">PROVOCA daño extra a los tipos: </string>
+    <string name="immune">Es INMUNE a los tipo:</string>
+    <string name="doble">x2</string>
+    <string name="ps">PS:\t\t</string>
+    <string name="atq">Ataque:\t\t</string>
+    <string name="def">Defensa:\t\t</string>
+    <string name="sp.atq">Atq. Esp.:\t\t</string>
+    <string name="sp.def">Def. Esp.:\t\t</string>
+    <string name="vel">Velocidad:\t\t</string>
+    <string name="total">Total:\t\t</string>
+    <string name="tipos">Tipos</string>
+    <string name="estadisticas">Estadisticas</string>
+    <string name="search">Search</string>
+    <string name="showPokedex">Mostrar Pokemon</string>
+    <string name="showType">Mostrar Tipos</string>
+    <string name="showFavoritos">Mostrar Favoritos</string>
+</resources>

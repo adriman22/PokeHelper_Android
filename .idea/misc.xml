@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/drawable-v24/ic_baseline_add_circle_outline_24.xml" value="0.1435" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.1435" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/drawable/rounded_box.xml" value="0.365" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/layout/activity_loading_screen.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/layout/activity_poke_list.xml" value="0.189209726443769" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/layout/activity_pokedex_data.xml" value="0.5" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/layout/activity_type_list.xml" value="0.3963210702341137" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/layout/pokedex_stats.xml" value="0.2886783942264321" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/layout/pokedex_types.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/layout/recycle_view_schema.xml" value="0.16134751773049646" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/menu/menu_add.xml" value="0.3675925925925926" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/menu/menu_main.xml" value="0.33" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1435" />
+        <entry key="..\:/Users/adrian/AndroidStudioProjects/TFG/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1435" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

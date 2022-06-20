@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoadingScreen">
+
+    <ImageView
+        android:id="@+id/bckGrnd"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/lowAlpha"
+        android:clickable="true"
+        android:src="@drawable/icon_background" />
+
+
+    <TextView
+        android:id="@+id/progressText"
+        android:text="@string/loading"
+        android:textColor="@android:color/black"
+        android:background="@drawable/rounded_box"
+        android:backgroundTint="@color/lowAlpha"
+        android:paddingRight="@dimen/ProgressBar_textPadding"
+        android:paddingLeft="@dimen/ProgressBar_textPadding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/progress_horizontal"/>
+
+    <ProgressBar
+        android:id="@+id/progress_horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:background="@drawable/rounded_box"
+        android:backgroundTint="@color/lowAlpha"
+        android:layout_width="@dimen/ProgressBar_width"
+        android:layout_height="@dimen/ProgressBar_height"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/ProgressBar_bottom"/>
+
+    <TextView
+        android:id="@+id/hint"
+        android:text="@string/hint"
+        android:textColor="@android:color/black"
+        android:background="@drawable/rounded_box"
+        android:backgroundTint="@color/background_text"
+        android:paddingLeft="@dimen/ProgressBar_textPadding"
+        android:paddingRight="@dimen/ProgressBar_textPadding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_Top"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

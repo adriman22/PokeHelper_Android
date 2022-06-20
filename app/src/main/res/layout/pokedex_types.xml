@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginStart="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weak"
+        android:textStyle="bold"
+        android:textSize="@dimen/textShow"/>
+
+    <LinearLayout
+        android:layout_marginStart="@dimen/small_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weakLayout"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/small_padding"
+        android:paddingBottom="@dimen/small_padding">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="@dimen/small_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weakLayout2"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/small_padding">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginStart="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resist"
+        android:textStyle="bold"
+        android:textSize="@dimen/textShow"/>
+
+    <LinearLayout
+        android:layout_marginStart="@dimen/small_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resistLayout"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/small_padding"
+        android:paddingBottom="@dimen/small_padding">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="@dimen/small_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resistLayout2"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/small_padding">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginStart="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strong"
+        android:textStyle="bold"
+        android:textSize="@dimen/textShow"/>
+
+    <LinearLayout
+        android:layout_marginStart="@dimen/small_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/strongLayout"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/small_padding"
+        android:paddingBottom="@dimen/small_padding">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="@dimen/small_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/strongLayout2"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/small_padding">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginStart="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/immune"
+        android:textStyle="bold"
+        android:textSize="@dimen/textShow"/>
+
+    <LinearLayout
+        android:layout_marginStart="@dimen/small_padding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/immuneLayout"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/small_padding"
+        android:paddingBottom="@dimen/small_padding">
+
+    </LinearLayout>
+</LinearLayout>

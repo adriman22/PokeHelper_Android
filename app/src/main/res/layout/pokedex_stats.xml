@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="7"
+    android:columnCount="2">
+
+    <TextView
+        android:textAlignment="textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/ps"
+        android:textColor="@color/ps"
+        android:textSize="@dimen/textShow" />
+
+    <TextView
+        android:id="@+id/ps"
+        android:layout_width="@dimen/estadisticasSeparacion"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/numeroTest"
+        android:textSize="@dimen/textShow" />
+    <LinearLayout
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:background="@color/black"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:textSize="@dimen/textShow"
+        android:textColor="@color/atq"
+        android:textAlignment="textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/atq" />
+    <TextView
+        android:id="@+id/atq"
+        android:textSize="@dimen/textShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/numeroTest"/>
+    <LinearLayout
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:background="@color/black"
+        android:layout_height="1dp"/>
+
+
+    <TextView
+        android:textSize="@dimen/textShow"
+        android:textColor="@color/def"
+        android:textAlignment="textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/def" />
+    <TextView
+        android:id="@+id/def"
+        android:textSize="@dimen/textShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/numeroTest"/>
+    <LinearLayout
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:background="@color/black"
+        android:layout_height="1dp"/>
+
+
+    <TextView
+        android:textSize="@dimen/textShow"
+        android:textColor="@color/sp.atq"
+        android:textAlignment="textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/sp.atq" />
+    <TextView
+        android:id="@+id/sp.atq"
+        android:textSize="@dimen/textShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/numeroTest"/>
+    <LinearLayout
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:background="@color/black"
+        android:layout_height="1dp"/>
+
+
+    <TextView
+        android:textSize="@dimen/textShow"
+        android:textColor="@color/sp.def"
+        android:textAlignment="textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/sp.def" />
+    <TextView
+        android:id="@+id/sp.def"
+        android:textSize="@dimen/textShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/numeroTest"/>
+    <LinearLayout
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:background="@color/black"
+        android:layout_height="1dp"/>
+
+
+    <TextView
+        android:textSize="@dimen/textShow"
+        android:textColor="@color/vel"
+        android:textAlignment="textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/vel" />
+    <TextView
+        android:id="@+id/vel"
+        android:textSize="@dimen/textShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/numeroTest"/>
+    <LinearLayout
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:background="@color/black"
+        android:layout_height="3dp"/>
+
+
+    <TextView
+        android:textSize="@dimen/textShow"
+        android:textColor="@color/total"
+        android:textAlignment="textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/total" />
+    <TextView
+        android:id="@+id/total"
+        android:textSize="@dimen/textShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/numeroTest"/>
+
+
+</GridLayout>

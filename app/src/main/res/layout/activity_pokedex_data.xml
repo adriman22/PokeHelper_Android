@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/small_padding"
+        android:paddingTop="@dimen/small_padding">
+
+        <ImageView
+            android:layout_marginLeft="@dimen/small_padding"
+            android:id="@+id/PokeImg"
+            android:layout_width="@dimen/imgSize"
+            android:layout_height="@dimen/imgSize"
+            android:fitsSystemWindows="true"/>
+        <TextView
+            android:id="@+id/PokeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test"
+            android:textStyle="bold"
+            android:textSize="@dimen/textShow"
+            android:layout_marginLeft="@dimen/margin_Left"
+            android:layout_marginTop="@dimen/margin_Top"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:background="@color/transparente"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/favorito"
+                android:layout_width="@dimen/imgButtonSize"
+                android:layout_height="@dimen/imgButtonSize"
+                android:layout_marginLeft="@dimen/small_padding"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/corazonempty" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/small_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PokeTypes"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/small_padding"
+        android:paddingBottom="@dimen/small_padding">
+
+        <ImageView
+            android:id="@+id/Tipo1"
+            android:layout_width="@dimen/imgSize"
+            android:layout_height="@dimen/imgSize2"
+            android:fitsSystemWindows="true"/>
+
+        <ImageView
+            android:id="@+id/Tipo2"
+            android:layout_width="@dimen/imgSize"
+            android:layout_height="@dimen/imgSize2"
+            android:fitsSystemWindows="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/showTypes"
+                android:src="@drawable/pokedex"
+                android:layout_width="@dimen/imgButtonSize"
+                android:layout_height="@dimen/imgButtonSize"
+                android:layout_marginLeft="@dimen/dp60"
+                android:layout_marginRight="@dimen/dp30"
+                android:background="@color/transparente"
+                android:layout_weight="1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp60"
+                android:layout_marginRight="@dimen/dp30"
+                android:text="@string/tipos"
+                android:background="@color/lowAlpha"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/showStats"
+                android:layout_width="@dimen/imgButtonSize"
+                android:layout_height="@dimen/imgButtonSize"
+                android:layout_marginLeft="@dimen/dp30"
+                android:layout_marginRight="@dimen/dp60"
+                android:background="@color/transparente"
+                android:layout_weight="1"
+                android:src="@drawable/egg" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp30"
+                android:layout_marginRight="@dimen/dp60"
+                android:text="@string/estadisticas"
+                android:background="@color/lowAlpha"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        layout="@layout/pokedex_types"
+        android:visibility="visible"
+        android:id="@+id/pokedexTypes"/>
+
+    <include
+        layout="@layout/pokedex_stats"
+        android:visibility="gone"
+        android:id="@+id/pokedexStats"/>
+
+
+</LinearLayout>

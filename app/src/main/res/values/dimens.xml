@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ProgressBar_width">350dp</dimen>
+    <dimen name="ProgressBar_height">15dp</dimen>
+    <dimen name="ProgressBar_bottom">220dp</dimen>
+    <dimen name="ProgressBar_textPadding">10dp</dimen>
+    <dimen name="radius">27dp</dimen>
+    <dimen name="imgSize">90dp</dimen>
+    <dimen name="imgSize2">35dp</dimen>
+    <dimen name="imgButtonSize">50dp</dimen>
+    <dimen name="padding_Top">29dp</dimen>
+    <dimen name="textShow">22sp</dimen>
+    <dimen name="small_padding">10dp</dimen>
+    <dimen name="margin_Left">25dp</dimen>
+    <dimen name="margin_Top">15dp</dimen>
+    <dimen name="x2Text">6dp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="dp60">60dp</dimen>
+    <dimen name="estadisticasSeparacion">130dp</dimen>
+</resources>
