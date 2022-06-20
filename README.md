@@ -7,6 +7,10 @@ tambien en esa misma ruta se encuentra el bundle
 
 La aplicacion esta desarollada en Java con conexion a base de datos SQLite
 
-La aplicacion hace uso de Jsoup para desacargarse varias paginas WEB, que luego recorrere 
-para recoger datos e imagenes de los Pokemon, estos datos son almacenados en Base de Datos
-para posteriormente ser mostrados de diversas formas en la aplicación
+La aplicacion hace uso de Jsoup para desacargarse varios recursos de internet, de los que
+posterior mente Extraere los datos necesarios los Transformare al formato que necesito para
+luego Cargarlos en la base de datos y poder usarlos de forma facil en toda la aplicación
+
+En esta aplicación pongo a prueba diversas tecnologias y cosas aprendidas durante el curso,
+asi como cosas nuevas, a modo de "ShowCase", todo esto orientado como una aplicación comercial
+basada en Pokemon
